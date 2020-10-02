@@ -6,16 +6,17 @@ using System.Web.Mvc;
 
 namespace ControleEstoque.Web.Controllers
 {
-    public class HomeController : Controller
+    public class GraficoController : Controller
     {
+        // GET: Grafico
         [Authorize]
-        public ActionResult Index()
+        public ActionResult PerdaMes()
         {
             return View();
         }
 
         [Authorize]
-        public ActionResult Sobre()
+        public ActionResult EntradaSaidaMesa()
         {
             return View();
         }
